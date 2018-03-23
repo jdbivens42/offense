@@ -1,0 +1,27 @@
+$TTL	604800
+@	   IN	  SOA	 m2.ttuoffense.lab. root.localhost. (
+				  3	   ; Serial
+			 604800	 ; Refresh
+			  86400	 ; Retry
+			2419200	 ; Expire
+			 604800 )   ; Negative Cache TTL
+;
+; name servers - NS records
+	IN	NS	m2.ttuoffense.lab.
+
+; name servers - A records
+m2.ttuoffense.lab.		  IN	  A	   192.0.2.1
+
+
+;  A records
+blah1.ttuoffense.lab.	IN	A	192.0.2.2
+blah2.ttuoffense.lab.	IN	A	192.0.2.3
+blah3.ttuoffense.lab.	IN	A	192.0.2.4
+blah4.ttuoffense.lab.	IN	A	192.0.2.5
+blah5.ttuoffense.lab.	IN	A	192.0.2.6
+
+mail.ttuoffense.lab.	IN	MX	192.0.2.14
+mail.ttuoffense.lab.	IN	A	192.0.2.14
+
+ftp.ttuoffense.lab.		IN	A	192.0.2.33
+www.ttuoffense.lab.		IN	A	192.0.2.42
