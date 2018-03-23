@@ -12,6 +12,7 @@ $TTL	604800
 ; name servers - A records
 m2.ttuoffense.lab.		  IN	  A	   192.0.2.1
 
+	IN	MX	10	mail.ttuoffense.lab.
 
 ;  A records
 blah1.ttuoffense.lab.	IN	A	192.0.2.2
@@ -20,7 +21,6 @@ blah3.ttuoffense.lab.	IN	A	192.0.2.4
 blah4.ttuoffense.lab.	IN	A	192.0.2.5
 blah5.ttuoffense.lab.	IN	A	192.0.2.6
 
-mail.ttuoffense.lab.	IN	MX	192.0.2.14
 mail.ttuoffense.lab.	IN	A	192.0.2.14
 
 ftp.ttuoffense.lab.		IN	A	192.0.2.33
